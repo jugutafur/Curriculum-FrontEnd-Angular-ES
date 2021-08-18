@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Juan Tafur\Documents\Juan tafur\githubJuanTafur\Curiculum Vitae\Curriculum-FrontEnd-Angular-\src\polyfills.ts */"hN/g");
+module.exports = __webpack_require__(/*! C:\Users\Juan Tafur\Documents\Juan tafur\githubJuanTafur\Curiculum Vitae\Curriculum-FrontEnd-Angular-ES\src\polyfills.ts */"hN/g");
 
 
 /***/ }),
