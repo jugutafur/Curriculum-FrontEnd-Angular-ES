@@ -1,0 +1,103 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 3.2rem;
+}
+h2 {
+  font-size: 2.8rem;
+}
+h3 {
+  font-size: 1.8rem;
+}
+article p {
+  font-size: 1.6rem;
+}
+footer p {
+  font-size: 1.6rem;
+}
+p {
+  font-size: 1.6rem;
+}
+html {
+  font-size: 62.5%;
+  background: #ececec;
+}
+.container {
+  width: 80%;
+  margin: 2rem auto;
+  display: grid;
+  border: 1px solid black;
+  background: white;
+  grid-template-columns: minmax(2rem, 3rem) minmax(14px, 30rem) minmax(140px, 1fr);
+  grid-template-rows: minmax(15rem, auto) minmax(10rem, auto) minmax(3rem, 0.5rem) minmax(2rem, 0.5rem);
+}
+.containerHeader {
+  grid-column-start: 1;
+  grid-column-end: -1;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.containerAside {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  z-index: 1;
+}
+.containerContent {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.footer {
+  grid-column-start: 1;
+  grid-column-end: -1;
+  grid-row-start: 3;
+  grid-row-end: 5;
+  background-color: #4e7cdf;
+  color: white;
+  padding-left: 1rem;
+}
+@media screen and (max-width: 700px) {
+  .container {
+    width: 80%;
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: minmax(2rem, 3rem) minmax(14px, 30rem) minmax(140px, 1fr);
+    grid-template-rows: minmax(15rem, auto) minmax(10rem, auto) minmax(3rem, auto) minmax(2rem, 0.5rem);
+  }
+
+  .containerHeader {
+    grid-column: 1/-1;
+    grid-row: 1/2;
+    margin-left: -18rem;
+  }
+
+  .containerAside {
+    grid-column: 1/-1;
+    grid-row: 2/3;
+  }
+
+  .containerContent {
+    margin-left: -2rem;
+    margin-right: 1rem;
+    grid-column: 1/-1;
+    grid-row: 3/4;
+    padding-left: 1rem;
+  }
+
+  .footer {
+    grid-column: 1/-1;
+    grid-row: 4/5;
+    background-color: #4e7cdf;
+    color: white;
+    padding-left: 1rem;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map*/
