@@ -298,7 +298,7 @@ ContentComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineC
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](80, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](81, "h3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](82, "Tecnofactory (Agos 2021 - Actualmente) ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](82, "Tecnofactory (Jul 2021 - Actualmente) ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](83, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](84, "Desarrollador Web");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](85, "br");
